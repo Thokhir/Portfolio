@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Thokhir Basha Shaik – Portfolio</title>
+  <meta name="description" content="Data Analytics, Bio/Cheminformatics, and AI/ML portfolio of Dr. Thokhir Basha Shaik." />
+  <meta name="author" content="Dr. Thokhir Basha Shaik" />
+  <link rel="preload" href="assets/water-quality-dashboard.mp4" as="video" type="video/mp4">
+  <link rel="preload" href="assets/chennai-reservoirs.mp4" as="video" type="video/mp4">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+  <!-- Replace GA_MEASUREMENT_ID with your Analytics ID if needed -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','GA_MEASUREMENT_ID');</script> -->
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Dr. Thokhir Basha Shaik</a>
+      <nav class="nav">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#services">Services</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <h1>Data Analyst • Bioinformatics • AI/ML Researcher</h1>
+      <p>11+ years in analytics and biotech. I build decision-focused dashboards, ML prototypes, and cheminformatics workflows for Pharma, Biotech, and Environmental health.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:sktbasha22@gmail.com">Email</a>
+        <a class="btn" href="https://wa.me/917671856965" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn" href="#" target="_blank" rel="noopener">Résumé</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="grid cards">
+          <div class="card"><span>🗄️</span> SQL (PostgreSQL)</div>
+          <div class="card"><span>📊</span> Power BI (DAX, Power Query)</div>
+          <div class="card"><span>🐍</span> Python (Pandas, scikit‑learn)</div>
+          <div class="card"><span>🧪</span> R (tidyverse, ggplot2)</div>
+          <div class="card"><span>🤖</span> Machine Learning (Regression/ANN)</div>
+          <div class="card"><span>🔬</span> Bio/Cheminformatics (Docking, ADMET)</div>
+          <div class="card"><span>🧰</span> Experimental R&D & QC</div>
+          <div class="card"><span>📄</span> Documentation & SOPs</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <input id="projectSearch" class="search" placeholder="Search projects... (e.g., Power BI, Docking, DWQI)" />
+        </div>
+
+        <div id="projectList" class="grid project-cards">
+          <article class="card project" data-tags="excel dwqi iwqi awqi lwqi water quality monsoon">
+            <h3>Water Quality Dashboard (Pre vs Post‑Monsoon)</h3>
+            <p>Excel dashboard across 8 stations with pies, bars, and station‑wise rankings for DWQI, IWQI, AWQI, and LWQI. Identified tail‑end deterioration pre‑monsoon and dilution post‑monsoon.</p>
+            <div class="media">
+              <video controls preload="metadata" poster="assets/empirical-vs-ideal.png">
+                <source src="assets/water-quality-dashboard.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <img src="assets/empirical-vs-ideal.png" alt="Ideal vs Empirical distributions" />
+            </div>
+            <div class="tags"><span>Excel</span><span>DWQI</span><span>IWQI</span></div>
+          </article>
+
+          <article class="card project" data-tags="power bi time series chennai reservoirs 2011">
+            <h3>Chennai Reservoir Water Levels (2005–2019)</h3>
+            <p>Power BI dashboard with filters and cards; shows peak around 2011 and notable decline by 2019 across Chembarambakkam, Redhills, Cholavaram, and Poondi.</p>
+            <div class="media">
+              <video controls preload="metadata">
+                <source src="assets/chennai-reservoirs.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="tags"><span>Power BI</span><span>Time Series</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="t-item">
+            <h3>Research Associate – SRKR Engineering College</h3>
+            <small>Nov 2020 – Present • India</small>
+            <ul>
+              <li>Commissioned analytical instruments and trained teams.</li>
+              <li>Built Power BI dashboards; led ML model selection for water quality.</li>
+              <li>Developed Social Vulnerability Index methodology.</li>
+            </ul>
+          </div>
+          <div class="t-item">
+            <h3>Junior Research Scientist – Eesavyasa Technologies Pvt. Ltd.</h3>
+            <small>Nov 2017 – Apr 2019 • Hyderabad</small>
+            <ul>
+              <li>Developed 6 rapid water testing kits and authored SOPs.</li>
+              <li>Prototyped devices with cross‑functional teams.</li>
+            </ul>
+          </div>
+          <div class="t-item">
+            <h3>Project Assistant II & Researcher – CSIR‑IICT & King’s College London (UKIERI)</h3>
+            <small>2006 – 2016</small>
+            <ul>
+              <li>Screened 2000+ anticancer compounds; identified leads.</li>
+              <li>Patented bioprocess for acrylic acid.</li>
+              <li>Target‑based screening & mechanistic assays.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section alt">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid cards">
+          <div class="card"><strong>📊 Data Analysis & Dashboards</strong><p>Interactive Power BI reports, ETL workflows, and KPI design.</p></div>
+          <div class="card"><strong>🤖 Machine Learning</strong><p>Feature engineering and model selection for classification/regression.</p></div>
+          <div class="card"><strong>🔬 Bio/Cheminformatics</strong><p>Docking, ADMET/QSAR, descriptor pipelines, visual summaries.</p></div>
+          <div class="card"><strong>🛠️ R&D Support</strong><p>Process optimization, experimental design, clean SOPs.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="grid cards">
+          <div class="card"><strong>Ph.D., Biotechnology</strong><p>CSIR‑IICT & Acharya Nagarjuna University — 2019</p></div>
+          <div class="card"><strong>Drug Delivery Exchange</strong><p>King’s College London — 2013</p></div>
+          <div class="card"><strong>M.Sc. Biotechnology (84.7%)</strong><p>Bharathidasan University — 2006</p></div>
+          <div class="card"><strong>B.Sc. Microbiology, Biochem, Chem (75.3%)</strong><p>Nagarjuna University — 2002</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="grid two">
+          <div class="card">
+            <p>Open to roles and freelance engagements. Share a brief and I’ll respond quickly.</p>
+            <ul class="contact-list">
+              <li>📧 <a href="mailto:sktbasha22@gmail.com">sktbasha22@gmail.com</a></li>
+              <li>📞 <a href="tel:+917671856965">+91‑7671856965</a></li>
+              <li>💬 <a href="https://wa.me/917671856965" target="_blank" rel="noopener">WhatsApp</a></li>
+              <li>🔗 <a href="https://www.linkedin.com/in/thokhir-basha-shaik-m-sc-ph-d-59498416/" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+          </div>
+          <form class="card" action="mailto:sktbasha22@gmail.com" method="post" enctype="text/plain">
+            <label>Name <input required type="text" name="name" /></label>
+            <label>Email <input required type="email" name="email" /></label>
+            <label>Message <textarea required name="message" rows="4"></textarea></label>
+            <button class="btn primary" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Dr. Thokhir Basha Shaik • Built with vanilla HTML/CSS/JS</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
